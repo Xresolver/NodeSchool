@@ -15,7 +15,7 @@ function countWords(inputWords) {
     return counts;
   }
 
-//   module.exports = countWords
+  module.exports = countWords
 
 
 //   function countWords(arr) 

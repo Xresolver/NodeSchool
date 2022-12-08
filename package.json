@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "split2": "^4.1.0",
+    "stream-combiner": "^0.2.2",
+    "strftime": "^0.10.1",
+    "tar": "^6.1.12",
+    "through2": "^4.0.2",
+    "through2-map": "^3.0.0",
+    "trumpet": "^1.7.2",
+    "ws": "^8.11.0"
+  }
+}
