@@ -8,6 +8,15 @@ function checkUsersValid(goodUsers) {
 
   module.exports = checkUsersValid
 
+  
+// function checkUsersValid(goodUsers) {
+// return function allUsersValid(submittedUsers) {
+//     return submittedUsers.every(
+//         x => goodUsers.includes(x)
+//     )
+// };
+// }
+
 
 /* official solution */
 // module.exports = function checkUsersValid(goodUsers) {
