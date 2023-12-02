@@ -7,7 +7,6 @@ const { doesNotMatch } = require('assert');
 
 const stream = through(write, end);
 const outObj = new Object();
-let first = true;
 
 function write(line, _, next)
 {
@@ -15,10 +14,7 @@ function write(line, _, next)
     const inObj = JSON.parse(line);
     
     if(inObj.type === 'genre')
-    {
-        if(!first)
-            this.push(JSON.stringify(outObj))   
-        
+    {    
         outObj.name = inObj.name;
         outObj.books = [];
     }
@@ -29,8 +25,8 @@ function write(line, _, next)
 }
 function end(done)
 {
-    if(!first)
-        this.push(JSON.stringify(outObj)) 
+    // if(!first)
+    //     this.push(JSON.stringify(outObj)) 
     done()
 }
 

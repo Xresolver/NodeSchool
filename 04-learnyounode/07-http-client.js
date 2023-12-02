@@ -5,7 +5,7 @@ http.get(argv[2], handleResponse);
 
 function handleResponse(response)
 {
-    response.setEncoding('utf8')
+    response.setEncoding('utf8');
 
     response.on('error', (err) =>
         {
