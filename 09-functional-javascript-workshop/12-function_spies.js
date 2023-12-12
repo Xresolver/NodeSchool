@@ -14,6 +14,9 @@ function Spy(target, method)
     return obj;
 }
 
+module.exports = Spy
+
+
 /* OFFICIEL SOLUTION */
 /* ----------------- */
 // function Spy(target, method) {
