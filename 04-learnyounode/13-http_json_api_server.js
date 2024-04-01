@@ -1,7 +1,5 @@
 const http = require('http');
-const url = require('url');
 const { argv } = require('process');
-
 
 const server = http.createServer(received);
 server.listen(argv[2]);
