@@ -26,6 +26,6 @@ module.exports = (Bacon, enteringShips, destroyerPosition) =>
         ships: enteringShipsCode,// Your ship counter goes here
         threat: destroyerPositionThreatLevel,// Your threat level goes here
         postArrivalShips: enteringShipsCode.filter(destroyerPositionThreatLevel
-            .filter(threat => threat==='extreme')) // Your ship counter post arrival goes here
+            .filter(threat => threat==='extreme').map(t => true)) // Your ship counter post arrival goes here
     };
 };
