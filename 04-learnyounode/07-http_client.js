@@ -18,6 +18,9 @@ function handleResponse(response)
         });
 }
 
+
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // 'use strict'
 // const http = require('http')
 

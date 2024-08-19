@@ -21,6 +21,9 @@ function getJSONTime(url)
     
 }
 
+
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // 'use strict'
 // const http = require('http')
 

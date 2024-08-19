@@ -18,7 +18,8 @@ function checkUsersValid(goodUsers) {
 // }
 
 
-/* official solution */
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // module.exports = function checkUsersValid(goodUsers) {
 //     return function allUsersValid(submittedUsers) {
 //       return submittedUsers.every(function(submittedUser) {

@@ -11,6 +11,7 @@ function loadUsers(userIds, load, done)
 module.exports = loadUsers
 
 /* OFFICIEL SOLUTION */
+/* ----------------- */
 // function loadUsers(userIds, load, done) 
 // {
 //     var completed = 0

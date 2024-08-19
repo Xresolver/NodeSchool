@@ -2,26 +2,27 @@ function countWords(inputWords) {
     const counts = {};
     inputWords.reduce
         (
-            (previousValue, currentValue) => 
-                {
-                    if(Object.keys(counts).length === 0)
-                        counts[previousValue] = 1;
-                    if(currentValue in counts)
-                        counts[currentValue]++;
-                    else
-                        counts[currentValue] = 1;
-                }
+            (previousValue, currentValue) => {
+                if (Object.keys(counts).length === 0)
+                    counts[previousValue] = 1;
+                if (currentValue in counts)
+                    counts[currentValue]++;
+                else
+                    counts[currentValue] = 1;
+            }
         )
     return counts;
-  }
+}
 
-  module.exports = countWords
+module.exports = countWords
 
 
-//   function countWords(arr) 
+/* OFFICIEL SOLUTION */
+/* ----------------- */
+//   function countWords(arr)
 //   {
 //     return arr.reduce(
-//         function(countMap, word) 
+//         function(countMap, word)
 //         {
 //             countMap[word] = ++countMap[word] || 1 // increment or initialize to 1
 //             return countMap

@@ -21,6 +21,7 @@ function curryN(fn, n)
 module.exports = curryN
 
 /* OFFICIEL SOLUTION */
+/* ----------------- */
 // function curryN(fn, n) {
 //     n = n || fn.length
 //     return function curriedN(arg) {

@@ -13,6 +13,8 @@ const writable = new Writable({
 stdin.pipe(writable);
 
 
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // const { Writable } = require('stream')
 
 // class MyWritable extends Writable {

@@ -6,7 +6,9 @@ module.exports = function arrayMap(arr, fn)
     return fnArr;
 }
 
-/*  Officiel Solution */
+
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // module.exports = function arrayMap(arr, fn, thisArg) {
 //     return arr.reduce(function(acc, item, index, arr) {
 //       acc.push(fn.call(thisArg, item, index, arr))

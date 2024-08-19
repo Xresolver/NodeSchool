@@ -18,6 +18,9 @@ function write(buffer, encoding, next)
 
 stdin.pipe(split()).pipe(stream).pipe(stdout);
 
+
+/* OFFICIEL SOLUTION */
+/* ----------------- */
 // const through = require('through2');
 // const { stdin, stdout} = require('process')
 
