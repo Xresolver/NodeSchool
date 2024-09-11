@@ -20,6 +20,7 @@
     "stream-combiner": "^0.2.2",
     "strftime": "^0.10.1",
     "stylus": "^0.62.0",
+    "tape": "^5.8.1",
     "tar": "^6.1.12",
     "through2": "^4.0.2",
     "through2-map": "^3.0.0",
