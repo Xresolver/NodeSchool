@@ -7,6 +7,7 @@
     "babel-cli": "^6.26.0",
     "bunyan": "^1.8.15",
     "concat-stream": "^2.0.0",
+    "domains": "^1.1.4",
     "express": "^4.18.2",
     "h2o2": "^8.2.0",
     "handlebars": "^4.7.8",
@@ -15,6 +16,7 @@
     "q-io": "^1.13.6",
     "rot13-transform": "^1.0.0",
     "split2": "^4.1.0",
+    "stackup": "^1.0.2",
     "stream-combiner": "^0.2.2",
     "strftime": "^0.10.1",
     "stylus": "^0.62.0",
@@ -22,6 +24,7 @@
     "through2": "^4.0.2",
     "through2-map": "^3.0.0",
     "trumpet": "^1.7.2",
+    "trycatch": "^1.5.21",
     "ws": "^8.11.0"
   }
 }
