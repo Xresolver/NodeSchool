@@ -1,5 +1,7 @@
+const fs = require('fs')
 const domify = require('domify');
-const domElement = domify('<div>Hello <span class="name"></span>!</div>');
+const domHtml = fs.readFileSync('./dom.html', 'utf-8');
+const domElement = domify(domHtml);
 
 module.exports = function () { return domElement }
 

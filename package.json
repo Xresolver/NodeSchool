@@ -13,6 +13,8 @@
     "express": "^4.18.2",
     "h2o2": "^8.2.0",
     "handlebars": "^4.7.8",
+    "inherits": "^2.0.4",
+    "insert-css": "^2.0.0",
     "jstrace": "^0.3.0",
     "marked": "^12.0.2",
     "node": "^20.18.0",
