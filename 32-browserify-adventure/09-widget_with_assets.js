@@ -1,3 +1,19 @@
+// const fs = require('fs')
+// const domify = require('domify');
+// const insertCss = require('insert-css');
+
+// const formHtml = fs.readFileSync('./form.html', 'utf-8');
+// const domElement = domify(formHtml);
+// const formCss = fs.readFileSync('./form.css', 'utf-8');
+// insertCss(formCss);
+
+// module.exports = function () { return domElement }
+
+// domElement.appendTo = function (target) {target.appendChild(domElement)}
+
+
+
+
 /* OFFICIEL SOLUTION */
 /* ----------------- */
 var fs = require('fs');

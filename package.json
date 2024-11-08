@@ -6,6 +6,7 @@
     "async": "^3.2.5",
     "babel-cli": "^6.26.0",
     "brfs": "^2.0.2",
+    "browserify-shim": "^3.8.16",
     "bunyan": "^1.8.15",
     "concat-stream": "^2.0.0",
     "domains": "^1.1.4",
