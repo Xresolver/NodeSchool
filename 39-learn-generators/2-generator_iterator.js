@@ -7,6 +7,6 @@ function* factorial(n) {
     }
 }
 
-for (var n of factorial(5)) {
+for (let n of factorial(5)) {
     console.log(n)
 }
