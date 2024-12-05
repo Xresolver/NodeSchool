@@ -1,4 +1,4 @@
-var callAndApply = {
+const callAndApply = {
     caller: function (object, method, nameArg, ageArg, tShirtSizeArg) {
       method.call(object, nameArg,ageArg, tShirtSizeArg);
     },
