@@ -1,6 +1,7 @@
-module.exports = {
-    balance: 0,
+let balance = 0;
 
+module.exports = 
+{
     getBalance: function()
     { 
         return balance;
