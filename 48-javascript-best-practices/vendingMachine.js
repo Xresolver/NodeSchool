@@ -11,17 +11,17 @@ module.exports = {
     releaseChange: function () {
         const currentBalance = balanceManager.getBalance();
         balanceManager.decreaseBalance(currentBalance);
-        return this.convertToChange(currentBalance);
+        return changeHandler.convertToChange(currentBalance);
     },
 
     vendProduct: function (productId) {
-        const product = this.getProduct(productId);
+        const product = productInventory.getProduct(productId);
         balanceManager.decreaseBalance(product.price);
         return product;
     },
 
     isValidAmount: function (amount) {
-        if (amount === null)
+        if (!amount )
             return false;
         else
             return true;

@@ -1,7 +1,12 @@
+const vendingMachine = require('./vendingMachine')
+
+
 let balance = 0;
 
 module.exports = 
 {
+    isValidAmount: vendingMachine.isValidAmount,
+
     getBalance: function()
     { 
         return balance;
@@ -9,10 +14,9 @@ module.exports =
 
     decreaseBalance: function(amount)
         {
-            // This method decreases the balance of the vending machine. If the balance amount is not 
-            // enough to cover the purchase, the method throws an error. 
+
             let errorMessage;
-            if(!this.canAfford(amount)){
+            if(!vendingMachine.canAfford(amount)){
                 errorMessage = 'Insufficient balance';
             }
             if(errorMessage){
@@ -27,9 +31,11 @@ module.exports =
         },
     
     canAfford: function(amount)
-        {
-            if(!this.isValidAmount(amount))
-                errorMessage = "Invalid Input";
+        {            
+            let errorMessage;
+
+            if(!vendingMachine.isValidAmount(amount))
+                errorMessage = 'Invalid Input';
             
             if(errorMessage)
                 throw new Error(errorMessage);
